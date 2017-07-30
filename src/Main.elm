@@ -41,7 +41,7 @@ initialModel route =
 matchers : Parser (Route -> a) a
 matchers =
   oneOf
-    [ Url.map Home (s "")
+    [ Url.map Home top
     , Url.map Blog (s "blog")
     ]
 
