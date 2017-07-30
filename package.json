@@ -1,0 +1,16 @@
+{
+  "name": "minimal-elm-routing",
+  "version": "1.0.0",
+  "description": "A minimal elm routing example",
+  "main": "index.html",
+  "dependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "elm-live": "elm-live Main.elm --output=index.html --open"
+  },
+  "author": "Nathan Kleekamp",
+  "license": "MIT"
+}
