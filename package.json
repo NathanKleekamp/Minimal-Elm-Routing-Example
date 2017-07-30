@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "elm-live": "elm-live Main.elm --output=index.html --open"
+    "elm-live": "elm-live src/Main.elm --output=index.html --open"
   },
   "author": "Nathan Kleekamp",
   "license": "MIT"
